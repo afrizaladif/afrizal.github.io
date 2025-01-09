@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Font untuk navbar brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #000000 !important; /* Warna font */
+  background: linear-gradient(45deg, #161616, #1b1a1a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand:hover {
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Font untuk navigasi lainnya */
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+.navbar-brand:hover {
+  color: #006400; /* Warna hijau gelap saat hover */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Bayangan lebih lembut */
+  transform: scale(1.05); /* Pembesaran sedikit untuk efek halus */
+  transition: transform 0.25s ease-in-out, text-shadow 0.25s ease-in-out,
+    color 0.25s ease-in-out;
+}
+
+.custom-img {
+  object-fit: contain; /* Proporsi gambar tetap, seluruh gambar terlihat */
+  height: 200px; /* Tinggi gambar seragam */
+  width: 100%; /* Lebar penuh sesuai dengan kartu */
+  border-radius: 10px; /* Sudut melengkung */
+  background-color: #f8f9fa; /* Tambahkan background untuk mengisi ruang kosong */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Elemen dalam kartu disusun vertikal */
+  justify-content: space-between;
+  height: 100%; /* Pastikan semua kartu punya tinggi seragam */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi untuk hover */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Mengangkat kartu sedikit */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
+
+.row {
+  justify-content: center; /* Elemen dalam baris disejajarkan ke tengah */
+}
+
+.container {
+  max-width: 1200px; /* Lebar maksimum container */
+  margin: auto; /* Menempatkan container di tengah halaman */
+}
+
+.title-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #006400;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  transition: color 0.3s ease; /* Transisi untuk hover */
+}
+
+.title-text:hover {
+  color: #228b22; /* Warna hijau yang lebih terang saat dihover */
+}
+
+.card-title {
+  color: #000 !important; /* Warna teks hitam */
+  text-decoration: none; /* Menghapus garis bawah */
+  font-weight: bold; /* Opsional: membuat teks lebih tebal */
+}

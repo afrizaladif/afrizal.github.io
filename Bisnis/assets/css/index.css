@@ -1,0 +1,114 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Font untuk navbar brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #000000 !important; /* Warna font */
+  background: linear-gradient(45deg, #161616, #1b1a1a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand:hover {
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Font untuk navigasi lainnya */
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+.navbar-brand:hover {
+  color: #006400; /* Warna hijau gelap saat hover */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Bayangan lebih lembut */
+  transform: scale(1.05); /* Pembesaran sedikit untuk efek halus */
+  transition: transform 0.25s ease-in-out, text-shadow 0.25s ease-in-out,
+    color 0.25s ease-in-out;
+}
+
+.content1 {
+  background-image: url(assets/image/Home.avif);
+}
+
+.card-img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Menyusun teks di tengah vertikal */
+  align-items: center; /* Menyusun teks di tengah horizontal */
+  text-align: center; /* Menyelaraskan teks agar berada di tengah */
+  color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang */
+  height: 100%;
+}
+.card-title,
+.card-text {
+  font-weight: 700; /* Tebal */
+  color: #ffffff; /* Hijau gelap, sesuaikan dengan gambar */
+}
+
+.card-text {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+.custom-img {
+  object-fit: cover; /* Proporsi gambar tetap */
+  height: 200px; /* Tinggi gambar seragam */
+  width: 100%; /* Lebar penuh sesuai dengan kartu */
+  border-radius: 10px; /* Sudut melengkung */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Elemen dalam kartu disusun vertikal */
+  justify-content: space-between;
+  height: 100%; /* Pastikan semua kartu punya tinggi seragam */
+}
+
+.row {
+  justify-content: center; /* Elemen dalam baris disejajarkan ke tengah */
+}
+
+.container {
+  max-width: 1200px; /* Lebar maksimum container */
+  margin: auto; /* Menempatkan container di tengah halaman */
+}
+
+.title-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #006400;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}

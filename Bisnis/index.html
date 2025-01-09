@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fashionku</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg shadow p-3 mb-5 bg-body-tertiary rounded sticky-top"
+    >
+      <div class="container-lg">
+        <a class="navbar-brand" href=".">Fashionku</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="galery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end navbar-->
+
+    <!--first content home -->
+    <div class="container-lg">
+      <div class="card text-bg-dark">
+        <img src="assets/image/home4.jpg" class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h3 class="card-title fs-2">Fashionku</h3>
+          <h3 class="card-text fs-2">
+            Tempat penjualan pakaian yang lengkap dengan kualitas terbaik
+          </h3>
+          <p class="card-text">
+            <small></small><i class="bi bi-instagram"></i> Fashionku
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--end first content home -->
+
+    <!--second content home-->
+    <section
+      class="background-1 py-5 position-relative mb-5"
+      style="background-color: cream"
+    >
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-9 mt-2 mx-auto">
+            <!-- Carousel Section -->
+            <figure class="text-center">
+              <div
+                id="carouselExampleRide"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="3000"
+              >
+                <div class="carousel-inner">
+                  <!-- Carousel Item 1 -->
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/image/icon.png"
+                      class="d-block mx-auto"
+                      height="320"
+                      width="320"
+                      alt="Coffee"
+                    />
+                    <blockquote class="blockquote mt-3">
+                      <p>toko penjualan pakaian paling lengakp.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      BEST<cite title="Source Title">FASHION</cite>
+                    </figcaption>
+                  </div>
+
+                  <!-- Carousel Item 2 -->
+                  <div class="carousel-item">
+                    <div class="container py-5">
+                      <div class="row align-items-center">
+                        <!-- Text Column -->
+                        <div class="col-lg-6">
+                          <h1 class="display-4 fw-bold text-success">
+                            Fashion
+                          </h1>
+                          <p class="lead text-muted">
+                            solusi untuk fashion yang itu itu saja
+                          </p>
+                        </div>
+                        <!-- Image Column -->
+                        <div class="col-lg-6 text-center">
+                          <div class="rounded-image shadow">
+                            <img
+                              src="assets/image/home2.avif"
+                              alt="Coffee Cup"
+                              class="img-fluid"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Carousel Item 3 -->
+                  <div class="carousel-item">
+                    <div class="container py-5">
+                      <div class="row align-items-center">
+                        <!-- Text Column -->
+                        <div class="col-lg-6">
+                          <h1 class="display-4 fw-bold text-success">Trend</h1>
+                          <p class="lead text-muted">
+                            tidak pernah ketinggalan trend
+                          </p>
+                        </div>
+                        <!-- Image Column -->
+                        <div class="col-lg-6 text-center">
+                          <div class="rounded-image shadow">
+                            <img
+                              src="assets/image/trend.jpg"
+                              alt="Coffee Cup"
+                              class="img-fluid"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+                style="background-color: black"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+          </div>
+          <div class="col text-center">
+            <!-- Konten Carousel -->
+          </div>
+          <div class="col-auto">
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleRide"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+                style="background-color: black"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end second content home-->
+
+    <!--third content home-->
+    <div class="container mt-4 mb-5">
+      <h2 class="title-text mb-5">BEST SELLER</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-3">
+            <img
+              src="assets/image/jaket.png"
+              class="card-img-top rounded-3 img-fluid custom-img"
+              alt="..."
+              style="object-fit: contain"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Jaket Zipper</h5>
+              <p class="card-text text-muted">solusi untuk cuaca dingin</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-3">
+            <img
+              src="assets/image/kargo.png"
+              class="card-img-top rounded-3 img-fluid custom-img"
+              alt="..."
+              style="object-fit: contain"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Celana kargo</h5>
+              <p class="card-text text-muted">Celana keren model kargo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-3">
+            <img
+              src="assets/image/kaosmerah.png"
+              class="card-img-top rounded-3 img-fluid custom-img"
+              alt="..."
+              style="object-fit: contain"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Kaos merah</h5>
+              <p class="card-text text-muted">Kaos keren dengan bahan lembut</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f3f4f5"
+        fill-opacity="1"
+        d="M0,32L30,37.3C60,43,120,53,180,80C240,107,300,149,360,186.7C420,224,480,256,
+        540,234.7C600,213,660,139,720,122.7C780,107,840,149,900,160C960,171,1020,149,1080,117.3C1140,85,1200,43,1260,48C1320,53,1380,107,1410,133.3L1440,160L1440,
+        320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,
+            360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+      ></path>
+    </svg>
+    <!--end third content home-->
+
+    <!--footer-->
+    <footer class="bg-white text-dark py-4 mt-5">
+      <!-- Ubah bg-dark menjadi bg-white -->
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4">
+            <h5 class="text-dark">Tentang Kelompok kami</h5>
+            <!-- Ubah text menjadi text-dark -->
+            <p>1. Trenady Arya (23120072)</p>
+            <p>2. Firman Sukma Bagus L (23120066)</p>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-md-4">
+            <h5 class="text-dark">Navigasi</h5>
+            <!-- Ubah text menjadi text-dark -->
+            <ul class="list-unstyled">
+              <li>
+                <a href="#about" class="text-dark text-decoration-none"
+                  >Tentang Kami</a
+                >
+              </li>
+              <!-- Ubah text-white menjadi text-dark -->
+              <li>
+                <a href="#menu" class="text-dark text-decoration-none">Menu</a>
+              </li>
+              <!-- Ubah text-white menjadi text-dark -->
+              <li>
+                <a href="#contact" class="text-dark text-decoration-none"
+                  >Kontak</a
+                >
+              </li>
+              <!-- Ubah text-white menjadi text-dark -->
+              <li>
+                <a href="#faq" class="text-dark text-decoration-none">FAQ</a>
+              </li>
+              <!-- Ubah text-white menjadi text-dark -->
+            </ul>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="col-md-4">
+            <h5 class="text-dark">Hubungi Kami</h5>
+            <!-- Ubah text menjadi text-dark -->
+            <p>
+              <i class="bi bi-geo-alt-fill"></i> Jl. mayjendsungkono. 5,
+              Surabaya
+            </p>
+            <p><i class="bi bi-envelope-fill"></i> fashionku@gmail.com</p>
+            <p><i class="bi bi-phone-fill"></i> +62 812-3456-7890</p>
+            <div>
+              <a href="#" class="text-dark me-2"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <!-- Ubah text-white menjadi text-dark -->
+              <a href="#" class="text-dark me-2"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <!-- Ubah text-white menjadi text-dark -->
+              <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+              <!-- Ubah text-white menjadi text-dark -->
+            </div>
+          </div>
+        </div>
+        <hr class="bg-dark" />
+        <!-- Ubah bg-light menjadi bg-dark untuk kontras -->
+        <div class="text-center">
+          <p class="mb-0">© 2024 Fashionku. Semua Hak Dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+    <!--end footer-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
